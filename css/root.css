@@ -386,6 +386,33 @@ input[type=checkbox]:checked + label .fa-moon {
 .root p {
   font-size: 16px;
 }
+@media screen and (max-width: 450px) {
+  .root h1 {
+    font-size: 56px;
+  }
+  .root h2 {
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .root h3 {
+    font-size: 40px;
+  }
+  .root h4 {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .root h5 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .root h6 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .root p {
+    font-size: 8px;
+  }
+}
 .root .bad-script {
   font-family: "Bad Script";
   font-weight: bold;
@@ -424,6 +451,11 @@ input[type=checkbox]:checked + label .fa-moon {
   color: rgba(255, 255, 255, 0.5);
   font-size: 21px;
   vertical-align: top;
+}
+@media screen and (max-width: 450px) {
+  .root .section {
+    padding: 2em 0.5em;
+  }
 }
 .root .add-some-padding {
   padding-top: 16px;
@@ -477,6 +509,7 @@ input[type=checkbox] + label + .root .hero {
   color: white;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 input[type=checkbox] + label + .root .hero .title, input[type=checkbox] + label + .root .hero .subtitle {
   color: white;
