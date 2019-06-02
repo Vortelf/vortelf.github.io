@@ -139,6 +139,10 @@ input[type=checkbox]:checked + label .fa-moon {
     padding: 2em 0.5em;
   }
 }
+.root .portrait img {
+  object-fit: cover;
+  object-position: top;
+}
 .root .add-some-padding {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -220,6 +224,10 @@ input[type=checkbox]:checked + label + .root .box {
 input[type=checkbox]:checked + label + .root .box .section {
   background: #F9F9D0;
 }
+input[type=checkbox]:checked + label + .root .portrait {
+  filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+}
 input[type=checkbox]:checked + label + .root .np-title {
   border-color: black;
 }
@@ -269,6 +277,10 @@ input[type=checkbox] + label + .root .section .title {
 }
 input[type=checkbox] + label + .root .card {
   background-color: #1f1f1f;
+}
+input[type=checkbox] + label + .root .portrait {
+  filter: brightness(33%) saturate(25%);
+  -webkit-filter: brightness(33%) saturate(25%);
 }
 input[type=checkbox] + label + .root .box {
   background: #1f1f1f;
