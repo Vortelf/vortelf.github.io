@@ -8,13 +8,6 @@ body {
   font-weight: 300;
 }
 
-i.fa, i.far, i.fas {
-  font-family: "Font Awesome 5 Free";
-}
-i.fab {
-  font-family: "Font Awesome 5 Brands";
-}
-
 input[type=checkbox] {
   display: none;
   position: absolute;
